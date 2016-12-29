@@ -1,0 +1,35 @@
+﻿! 标题: 下载欺骗过滤
+! 上次更新: 2016/09/23 12:04:45
+! 主页: http://www.maxwav.com
+! 版本: 2016.09.2
+! 规则说明: 这是一个专门过滤各下载站的下载欺骗的，作为adbyby官方规则的补充使用
+! 文本编码: UTF-8 BOM
+! --------------------------------------------------------------------------- !
+! --------------------------------------------------------------------------- !
+! --------------------------------------------------------------------------- !
+! ZOL下载站http://xiazai.zol.com.cn/detail/3/26461.shtml
+xiazai.zol.com.cn##.clearfix.down-alink
+xiazai.zol.com.cn##.down-h5
+
+! 华军软件园http://www.onlinedown.net/soft/255554.htm
+www.onlinedown.net##.clearfix.meg
+www.onlinedown.net##.clearfix.downgs
+www.onlinedown.net##.downDz > h4:nth-of-type(1)
+
+! 天空下载http://www.skycn.com/soft/appid/1025688.html
+www.skycn.com##.address_like:nth-of-type(1)
+www.skycn.com##.address_like:nth-of-type(2)
+www.skycn.com##.address_like:nth-of-type(3)
+www.skycn.com##.address_like:nth-of-type(4)
+www.skycn.com##.ul_Address > h3:nth-of-type(1)
+
+! 下载吧http://www.xiazaiba.com/html/4037.html
+xiazaiba.com###downlist > DIV.dl-item:first-child
+
+! PC6下载站http://www.pc6.com/softview/SoftView_77911.html#download
+pc6.com###download > ul.content.greena.clearfix:last-child > li.address-wrap.on:first-child > ul.ul_Address:nth-child(4) > h3:nth-child(3)
+
+! 当下软件园http://www.downxia.com/downinfo/80834.html
+downxia.com###gaosu_div0
+downxia.com###download > div.tab_con3:last-child > div.left.l.pr:first-child > div.tab-pcd:first-child > ul.list-down.fix:last-child > h3:first-child
+downxia.com###download > div.tab_con3:last-child > div.left.l.pr:first-child > div.tab-pcd:first-child > div:nth-child(2)
